@@ -23,7 +23,7 @@ import java.net.URI;
         // initialize the SDK and report only once per process
         try {
             ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
-            config.setServerAddress(new URI("ws://workstation.modeloffice.org:5095"));
+            config.setServerAddress(new URI("ws://localhost:5095"));
             SDK.init(config);
 
             Reporter.init();
