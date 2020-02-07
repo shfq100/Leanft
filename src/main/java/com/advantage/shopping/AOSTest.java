@@ -34,7 +34,7 @@ public class AOSTest {
         System.out.println("properties url = " + url);
         System.out.println("properties usernameVal = " + usernameVal);
         if (url==null) {
-            url = "http://workstation.modeloffice.org:8080";
+            url = "http://nimbusserver.aos.com:8000";
         }
         if(usernameVal==null) {
             usernameVal = "AJ99038";
